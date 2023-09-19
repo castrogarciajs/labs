@@ -2,7 +2,7 @@ import AboutPage from './about/page';
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="bg-home-purple h-screen bg-no-repeat">
       <AboutPage />
     </div>
   );

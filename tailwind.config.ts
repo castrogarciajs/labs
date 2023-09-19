@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {},
+    backgroundImage: {
+      'home-purple': "url('../../public/backgrounds/bg-home-purple.png')"
+    }
   },
   plugins: [],
 };
