@@ -1,0 +1,11 @@
+{
+  "title": "Digital Inc",
+  "description": "Digital Website",
+  "navigations": [
+    { "id": 1, "name": "Product", "href": "#" },
+    { "id": 2,"name": "Features", "href": "#" },
+    { "id": 3, "name": "Marketplace", "href": "#" },
+    { "id": 4, "name": "Company", "href": "#" }
+  ],
+  "media": [{ "name": "instagram", "link": "#" }]
+}
