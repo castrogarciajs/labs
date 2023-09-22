@@ -11,7 +11,8 @@ const config: Config = {
     backgroundImage: {
       "home-purple": "url('../../public/backgrounds/bg-home-purple.png')",
       "home-green": "url('../../public/backgrounds/bg-green.png')",
-      "home-blue": "url('../../public/backgrounds/bg-payments.png')"
+      "home-blue": "url('../../public/backgrounds/bg-payments.png')",
+      "home-black": "url('../../public/backgrounds/bg-footer.png')"
     },
     fontFamily: {
       inter: ["Inter", "sans-serif"],
