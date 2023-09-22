@@ -1,8 +1,11 @@
-import ServicesPage from './services/page';
+import ServicesPage from "./services/page";
+import FeaturesPage from "./features/page";
+
 export default function HomePage() {
   return (
-    <div className="">
+    <>
       <ServicesPage />
-    </div>
+      <FeaturesPage />
+    </>
   );
 }
