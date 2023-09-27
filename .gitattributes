@@ -1,0 +1,9 @@
+# Imágenes y binarios
+*.png     binary
+*.jpg     binary
+*.gif     binary
+*.pdf     binary
+
+
+# Archivos de configuración JSON
+*.json    text
