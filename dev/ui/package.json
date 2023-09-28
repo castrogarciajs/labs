@@ -10,8 +10,7 @@
     "dist/**"
   ],
   "exports": {
-    ".": "./dist",
-    "./styles.css": "./dist/index.css"
+    ".": "./dist"
   },
   "scripts": {
     "build": "tsup components/index.tsx --format esm,cjs --dts --external react",
