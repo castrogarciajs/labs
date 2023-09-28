@@ -1,2 +1,2 @@
 export { Button } from "./button";
-export { type ButtonProps} from "./interfaces/dev"
+export { type ButtonProps } from "./interfaces/dev";
