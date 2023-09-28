@@ -1,16 +1,9 @@
-import * as React from "react";
+import { ButtonProps } from "./interfaces/dev";
 
-export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  children: React.ReactNode;
-}
-
-export function Button({ children, ...other }: ButtonProps): JSX.Element {
+export function Button({ children, ...atributtes }: ButtonProps): JSX.Element {
   return (
-    <button type="button" {...other}>
+    <button type="button" {...atributtes}>
       {children}
     </button>
   );
 }
-
-Button.displayName = "Button";
