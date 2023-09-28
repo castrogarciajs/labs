@@ -1,5 +1,16 @@
-export type TyPropsButton = { title: string };
+import * as React from "react";
 
-export function UIButton({ title }: TyPropsButton) {
-  return <button className="p-4 bg-black rounded text-white">{title}</button>;
+export interface ButtonProps
+  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  children: React.ReactNode;
 }
+
+export function Button({ children, ...other }: ButtonProps): JSX.Element {
+  return (
+    <button type="button" {...other}>
+      {children}
+    </button>
+  );
+}
+
+Button.displayName = "Button";

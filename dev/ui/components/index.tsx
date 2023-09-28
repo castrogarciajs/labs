@@ -1,1 +1,1 @@
-export { UIButton, type TyPropsButton } from "./button";
+export { Button, type ButtonProps } from "./button";
