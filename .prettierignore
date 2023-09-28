@@ -1,0 +1,8 @@
+node_modules
+dist
+pnpm-lock.yaml
+.vscode
+.next
+.turbo
+pkg/*/dist
+dev/*/dist
