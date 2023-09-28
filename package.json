@@ -9,7 +9,7 @@
     "clean": "turbo clean",
     "prepare": "husky install",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\""
   },
   "keywords": ["typescript", "nextjs"],
   "author": "labs company",
