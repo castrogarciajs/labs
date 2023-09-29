@@ -8,8 +8,7 @@
     "build": "turbo build",
     "clean": "turbo daemon clean",
     "prepare": "husky install",
-    "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md,json}\""
+    "lint": "turbo lint"
   },
   "keywords": [
     "typescript",
@@ -19,7 +18,6 @@
   "devDependencies": {
     "eslint": "8.50.0",
     "husky": "8.0.3",
-    "prettier": "3.0.3",
     "turbo": "1.10.14",
     "tsconfig": "workspace:*"
   },
