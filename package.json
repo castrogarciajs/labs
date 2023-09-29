@@ -8,12 +8,12 @@
     "build": "turbo build",
     "clean": "turbo daemon clean",
     "prepare": "husky install",
-    "lint": "turbo lint"
+    "lint": "turbo lint",
+    "release": "turbo run publish",
+    "publish": "changesets publish"
   },
   "keywords": [
     "typescript",
-    "nextjs",
-    "pnpm",
     "git"
   ],
   "author": "labs company",
