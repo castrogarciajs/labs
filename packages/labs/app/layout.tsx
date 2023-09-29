@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import type { Metadata } from "next";
-import { Header, Navbar, Main } from "@labs/ui";
+import { Header, Navbar, Main, Footer } from "@labs/ui";
 
 export const metadata: Metadata = {
   title: "Labs Company",
@@ -21,6 +21,9 @@ export default function RootLayout({
           </Navbar>
         </Header>
         <Main>{children}</Main>
+        <Footer>
+          <h2>Footer</h2>
+        </Footer>
       </body>
     </html>
   );
