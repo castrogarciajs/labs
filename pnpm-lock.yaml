@@ -54,7 +54,7 @@ importers:
         specifier: 5.2.2
         version: 5.2.2
 
-  pkg/academy:
+  packages/academy:
     dependencies:
       next:
         specifier: 13.5.3
@@ -103,7 +103,7 @@ importers:
         specifier: 5.2.2
         version: 5.2.2
 
-  pkg/labs:
+  packages/labs:
     dependencies:
       next:
         specifier: 13.5.3
