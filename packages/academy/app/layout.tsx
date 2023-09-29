@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import type { Metadata } from "next";
-import { Header, Navbar, Main, Footer } from "@labs/ui";
+import { Header, Navbar, Main, Footer } from "@labs-pkg/ui";
 
 export const metadata: Metadata = {
   title: "Labs Academy",

@@ -12,7 +12,7 @@ importers:
         specifier: 2.26.2
         version: 2.26.2
     devDependencies:
-      '@labs/tsconfig':
+      '@labs-pkg/tsconfig':
         specifier: workspace:*
         version: link:dev/tsconfig
       eslint:
@@ -35,7 +35,7 @@ importers:
 
   dev/ui:
     devDependencies:
-      '@labs/tsconfig':
+      '@labs-pkg/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       '@types/react':
@@ -66,13 +66,13 @@ importers:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
     devDependencies:
-      '@labs/tailwind':
+      '@labs-pkg/tailwind':
         specifier: workspace:*
         version: link:../../dev/tailwind
-      '@labs/tsconfig':
+      '@labs-pkg/tsconfig':
         specifier: workspace:*
         version: link:../../dev/tsconfig
-      '@labs/ui':
+      '@labs-pkg/ui':
         specifier: workspace:*
         version: link:../../dev/ui
       '@types/node':
@@ -115,13 +115,13 @@ importers:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
     devDependencies:
-      '@labs/tailwind':
+      '@labs-pkg/tailwind':
         specifier: workspace:*
         version: link:../../dev/tailwind
-      '@labs/tsconfig':
+      '@labs-pkg/tsconfig':
         specifier: workspace:*
         version: link:../../dev/tsconfig
-      '@labs/ui':
+      '@labs-pkg/ui':
         specifier: workspace:*
         version: link:../../dev/ui
       '@types/node':

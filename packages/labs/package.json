@@ -23,8 +23,8 @@
     "tailwindcss": "3.3.3",
     "eslint": "8.50.0",
     "eslint-config-next": "13.5.3",
-    "@labs/tsconfig": "workspace:*",
-    "@labs/tailwind": "workspace:*",
-    "@labs/ui": "workspace:*"
+    "@labs-pkg/tsconfig": "workspace:*",
+    "@labs-pkg/tailwind": "workspace:*",
+    "@labs-pkg/ui": "workspace:*"
   }
 }

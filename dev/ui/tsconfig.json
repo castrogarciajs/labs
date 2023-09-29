@@ -1,5 +1,5 @@
 {
-  "extends": "@labs/tsconfig/react-library.json",
+  "extends": "@labs-pkg/tsconfig/react-library.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]
 }
