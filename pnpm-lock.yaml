@@ -12,15 +12,15 @@ importers:
         specifier: 2.26.2
         version: 2.26.2
     devDependencies:
+      '@labs/tsconfig':
+        specifier: workspace:*
+        version: link:dev/tsconfig
       eslint:
         specifier: 8.50.0
         version: 8.50.0
       husky:
         specifier: 8.0.3
         version: 8.0.3
-      tsconfig:
-        specifier: workspace:*
-        version: link:dev/tsconfig
       turbo:
         specifier: 1.10.14
         version: 1.10.14
@@ -35,6 +35,9 @@ importers:
 
   dev/ui:
     devDependencies:
+      '@labs/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
       '@types/react':
         specifier: 18.2.23
         version: 18.2.23
@@ -44,9 +47,6 @@ importers:
       react:
         specifier: 18.2.0
         version: 18.2.0
-      tsconfig:
-        specifier: workspace:*
-        version: link:../tsconfig
       tsup:
         specifier: 7.2.0
         version: 7.2.0(typescript@5.2.2)
@@ -66,6 +66,12 @@ importers:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
     devDependencies:
+      '@labs/tailwind':
+        specifier: workspace:*
+        version: link:../../dev/tailwind
+      '@labs/tsconfig':
+        specifier: workspace:*
+        version: link:../../dev/tsconfig
       '@labs/ui':
         specifier: workspace:*
         version: link:../../dev/ui
@@ -90,15 +96,9 @@ importers:
       postcss:
         specifier: 8.4.30
         version: 8.4.30
-      tailwind:
-        specifier: workspace:*
-        version: link:../../dev/tailwind
       tailwindcss:
         specifier: 3.3.3
         version: 3.3.3
-      tsconfig:
-        specifier: workspace:*
-        version: link:../../dev/tsconfig
       typescript:
         specifier: 5.2.2
         version: 5.2.2
@@ -115,6 +115,12 @@ importers:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
     devDependencies:
+      '@labs/tailwind':
+        specifier: workspace:*
+        version: link:../../dev/tailwind
+      '@labs/tsconfig':
+        specifier: workspace:*
+        version: link:../../dev/tsconfig
       '@labs/ui':
         specifier: workspace:*
         version: link:../../dev/ui
@@ -139,15 +145,9 @@ importers:
       postcss:
         specifier: 8.4.30
         version: 8.4.30
-      tailwind:
-        specifier: workspace:*
-        version: link:../../dev/tailwind
       tailwindcss:
         specifier: 3.3.3
         version: 3.3.3
-      tsconfig:
-        specifier: workspace:*
-        version: link:../../dev/tsconfig
       typescript:
         specifier: 5.2.2
         version: 5.2.2
