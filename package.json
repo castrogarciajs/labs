@@ -12,15 +12,20 @@
   },
   "keywords": [
     "typescript",
-    "nextjs"
+    "nextjs",
+    "pnpm",
+    "git"
   ],
   "author": "labs company",
+  "packageManager": "pnpm@8.8.0",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@changesets/cli": "2.26.2"
+  },
   "devDependencies": {
     "eslint": "8.50.0",
     "husky": "8.0.3",
-    "turbo": "1.10.14",
-    "tsconfig": "workspace:*"
-  },
-  "packageManager": "pnpm@8.8.0",
-  "license": "BSD-3-Clause"
+    "tsconfig": "workspace:*",
+    "turbo": "1.10.14"
+  }
 }
