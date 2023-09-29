@@ -1,3 +1,3 @@
 {
-  "exclude": ["tsconfig/base.json"]
+  "exclude": ["@labs/tsconfig/base.json"]
 }

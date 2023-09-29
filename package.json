@@ -26,7 +26,7 @@
   "devDependencies": {
     "eslint": "8.50.0",
     "husky": "8.0.3",
-    "tsconfig": "workspace:*",
+    "@labs/tsconfig": "workspace:*",
     "turbo": "1.10.14"
   },
   "repository": {
