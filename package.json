@@ -1,5 +1,5 @@
 {
-  "name": "digital",
+  "name": "@labs/company",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,8 @@
     "prepare": "husky install",
     "lint": "turbo lint",
     "release": "turbo run publish",
-    "publish": "changesets publish"
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish"
   },
   "keywords": [
     "typescript",
@@ -27,5 +28,9 @@
     "husky": "8.0.3",
     "tsconfig": "workspace:*",
     "turbo": "1.10.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/labs-company/labs.git"
   }
 }

@@ -1,9 +1,10 @@
 {
   "name": "@labs/ui",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "private": false,
   "sideEffects": false,
   "license": "MIT",
   "files": [
@@ -24,7 +25,9 @@
     "tsup": "7.2.0",
     "typescript": "5.2.2"
   },
-  "publishConfig": {
-    "access": "public"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/labs-company/labs.git",
+    "directory": "dev/ui"
   }
 }

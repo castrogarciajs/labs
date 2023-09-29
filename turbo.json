@@ -13,10 +13,6 @@
     },
     "clean": {
       "cache": false
-    },
-    "publish": {
-      "dependsOn": ["build", "lint"],
-      "cache": false
     }
   }
 }
