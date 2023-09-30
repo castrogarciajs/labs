@@ -1,12 +1,13 @@
 {
   "name": "@labs-pkg/ui",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "pkg-labs",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "files": [
-    "dist/**"
+    "dist/**",
+    "README.md"
   ],
   "scripts": {
     "build": "tsup components/index.tsx --format esm,cjs --dts --external react",

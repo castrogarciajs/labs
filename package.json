@@ -9,7 +9,6 @@
     "clean": "turbo daemon clean",
     "prepare": "husky install",
     "lint": "turbo lint",
-    "release": "turbo run publish",
     "changeset:version": "changeset version",
     "changeset:publish": "changeset publish"
   },
