@@ -1,0 +1,27 @@
+{
+    "$schema": "https://json.schemastore.org/prettierrc",
+    "singleQuote": true,
+    "printWidth": 100,
+    "overrides": [
+        {
+            "files": [
+                "*.tsx",
+                "*.ts"
+            ],
+            "options": {
+                "bracketSameLine": false
+            }
+        },
+        {
+            "files": [
+                "README.md",
+                "packages/*/README.md",
+                "**/packages.json"
+            ],
+            "options": {
+                "useTabs": false,
+                "tabWidth": 2
+            }
+        }
+    ]
+}

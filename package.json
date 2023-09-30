@@ -9,6 +9,7 @@
     "clean": "turbo daemon clean",
     "prepare": "husky install",
     "lint": "turbo lint",
+    "format": "pnpm -r format",
     "changeset:version": "changeset version",
     "changeset:publish": "changeset publish"
   },
@@ -23,9 +24,10 @@
     "@changesets/cli": "2.26.2"
   },
   "devDependencies": {
+    "@labs-pkg/tsconfig": "workspace:*",
     "eslint": "8.50.0",
     "husky": "8.0.3",
-    "@labs-pkg/tsconfig": "workspace:*",
+    "prettier": "3.0.3",
     "turbo": "1.10.14"
   },
   "repository": {
