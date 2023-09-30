@@ -1,4 +1,4 @@
-import { ButtonProps } from "./interfaces/dev";
+import { ButtonProps } from './interfaces/dev';
 
 export function Button({ children, ...atributtes }: ButtonProps): JSX.Element {
   return (
