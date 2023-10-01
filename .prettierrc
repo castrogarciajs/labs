@@ -9,7 +9,8 @@
                 "*.ts"
             ],
             "options": {
-                "bracketSameLine": false
+                "bracketSameLine": false,
+                "jsxSingleQuote": true
             }
         },
         {

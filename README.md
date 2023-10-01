@@ -1,1 +1,1 @@
-# Labs Company
+# Labs
