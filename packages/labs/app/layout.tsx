@@ -1,6 +1,6 @@
 import '@/styles/globals.css';
 import type { Metadata } from 'next';
-import { Header, Navbar, Main, Footer } from '@labs-pkg/ui';
+import { Main, Footer } from '@labs-pkg/ui';
 
 export const metadata: Metadata = {
   title: 'Labs Company',
@@ -11,11 +11,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang='en'>
       <body>
-        <Header>
-          <Navbar>
-            <h1>Hola</h1>
-          </Navbar>
-        </Header>
         <Main>{children}</Main>
         <Footer>
           <h2>Footer</h2>
