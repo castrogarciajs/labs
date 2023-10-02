@@ -20,7 +20,7 @@ export default function HeaderMenu() {
             <span className='sr-only'>Your Company</span>
             <Image className='h-10 w-auto' src={logoLabs} alt='' />
           </a>
-          <h1 className='text-white text-4xl -mb-2 font-inter'>Labs</h1>
+          <h1 className='text-white text-4xl -mb-2 font-inter font-bold'>Labs</h1>
         </div>
         <div className='flex lg:hidden'>
           <button
