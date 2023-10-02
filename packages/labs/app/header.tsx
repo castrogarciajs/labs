@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { navigation } from './links';
 import { Header, Navbar } from '@labs-pkg/ui';
 
-import logoLabs from '@/public/logo-labs.png';
+import logoLabs from '@/public/logo-labs-removebg-preview.png';
 import Image from 'next/image';
 
 export default function HeaderMenu() {
@@ -14,13 +14,13 @@ export default function HeaderMenu() {
 
   return (
     <Header className='absolute inset-x-0 top-0 z-50'>
-      <Navbar className='flex items-center justify-between p-6 lg:px-8' aria-label='Global'>
-        <div className='flex lg:flex-1 items-center'>
+      <Navbar className='flex items-center justify-between py-4 px-8' aria-label='Global'>
+        <div className='flex lg:flex-1 items-center gap-4'>
           <a href='#' className='-m-1.5 p-1.5'>
             <span className='sr-only'>Your Company</span>
-            <Image className='h-24 w-auto' src={logoLabs} alt='' />
+            <Image className='h-10 w-auto' src={logoLabs} alt='' />
           </a>
-          <h1 className='text-white text-4xl font-mono -mb-6 font-inter'>Labs</h1>
+          <h1 className='text-white text-4xl -mb-2 font-inter'>Labs</h1>
         </div>
         <div className='flex lg:hidden'>
           <button
@@ -32,12 +32,12 @@ export default function HeaderMenu() {
             <IconMenu size={40} strokeWidth='2' color='#fff' />
           </button>
         </div>
-        <div className='hidden lg:flex lg:gap-x-12'>
+        <div className='hidden lg:flex lg:gap-x-12 items-end'>
           {navigation.map((item) => (
             <a
               key={item.name}
               href={item.href}
-              className='text-sm font-semibold leading-6 text-white'
+              className='text-lg leading-6 text-white font-inter hover:text-purple-400'
             >
               {item.name}
             </a>
@@ -51,13 +51,13 @@ export default function HeaderMenu() {
 
 function DialogMenu({ mobileMenuOpen, setMobileMenuOpen }) {
   return (
-    <Dialog as='div' className='lg:hidden' open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+    <Dialog as='div' className='lg:hidden px-8' open={mobileMenuOpen} onClose={setMobileMenuOpen}>
       <div className='fixed inset-0 z-50' />
       <Dialog.Panel className='fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[#050407] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
         <div className='flex items-center justify-between'>
           <a href='#' className='-m-1.5 p-1.5'>
             <span className='sr-only'>Your Company</span>
-            <Image className='h-20 w-auto' src={logoLabs} alt='' />
+            <Image className='h-12 w-auto' src={logoLabs} alt='' />
           </a>
           <button
             type='button'
@@ -75,7 +75,7 @@ function DialogMenu({ mobileMenuOpen, setMobileMenuOpen }) {
                 <a
                   key={item.name}
                   href={item.href}
-                  className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white font-inter'
+                  className='-mx-3 block rounded-lg px-3 py-2 text-xl leading-7 text-white font-inter hover:text-purple-400'
                 >
                   {item.name}
                 </a>
