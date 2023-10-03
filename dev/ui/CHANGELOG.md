@@ -1,5 +1,11 @@
 # @labs-pkg/ui
 
+## 0.2.1
+
+### Patch Changes
+
+- Add new properties button component
+
 ## 0.2.0
 
 ### Minor Changes

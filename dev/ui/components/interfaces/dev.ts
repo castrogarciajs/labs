@@ -16,4 +16,6 @@ export interface FooterProps extends React.HTMLAttributes<HTMLElement> {
 }
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
+  shadow?: boolean;
+  rounded?: boolean;
 }
