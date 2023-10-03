@@ -1,5 +1,11 @@
 # @labs-pkg/tailwind
 
+## 0.3.0
+
+### Minor Changes
+
+- Add animation config
+
 ## 0.2.0
 
 ### Minor Changes
