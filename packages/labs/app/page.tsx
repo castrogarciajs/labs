@@ -1,13 +1,14 @@
 import { Button } from '@labs-pkg/ui';
 import Header from './header';
+import ServicesPage from "./services/page";
 
 export default function HomePage() {
   return (
-    <>
-      <div className='bg-[#050407]'>
+    
+      <>
         <Header />
-        <div className='relative isolate px-6 pt-14 lg:px-8'>
-          <div className='py-32 sm:py-48 lg:py-48'>
+        <section className='relative isolate px-6 pt-14 lg:px-8'>
+          <article className='py-32 sm:py-48 lg:py-48'>
             <div className='text-center max-w-7xl mx-auto'>
               <h2 className='text-6xl flex justify-center items-center flex-wrap font-bold tracking-tight text-white sm:text-8xl font-inter w-full px-2'>
                 <span className='block relative p-2'>Laburar.</span>
@@ -30,12 +31,11 @@ export default function HomePage() {
                 </a>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <Button className='text-white bg-purple-500 p-4' shadow>
-        lABS COMPONENTE
-      </Button>
-    </>
+          </article>
+        </section>
+        <ServicesPage />
+        
+      </>
+    
   );
 }

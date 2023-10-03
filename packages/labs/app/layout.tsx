@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang='en'>
       <body>
-        <Main>{children}</Main>
+        <Main className='bg-[#050407]'>{children}</Main>
         <Footer>
           <h2>Footer</h2>
         </Footer>
