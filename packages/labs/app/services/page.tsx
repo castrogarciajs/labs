@@ -6,8 +6,8 @@ import ImageInfo from './image';
 
 export default function ServicesPages() {
   return (
-    <section id='nosotros'>
-      <article className='flex justify-between items-center py-8 gap-4 flex-wrap lg:flex-nowrap w-full'>
+    <section>
+      <article className='flex justify-between items-center py-6 gap-4 flex-wrap lg:flex-nowrap w-full'>
         <div className='lg:flex-1 flex justify-center flex-col lg:items-center relative w-full'>
           <h2 className='font-inter font-bold text-white p-8 text-2xl lg:text-7xl mt-12'>
             FLEXIBLE
