@@ -2,7 +2,7 @@ import flex from '@/public/lab-flex.jpg';
 import scale from '@/public/lab-scale.jpg';
 import secure from '@/public/lab-secure.jpg';
 import { SpinnerFlex, SpinnerScale, SpinnerSecure } from './spinner';
-import ImageInfo from "./image";
+import ImageInfo from './image';
 
 export default function ServicesPages() {
   return (
@@ -14,10 +14,8 @@ export default function ServicesPages() {
           </h2>
           <SpinnerFlex />
           <p className='font-inter text-white text-xl w-full lg:w-[50vw] py-4 px-2 text-center'>
-          Añade JavaScript a tu
-producto para permitir a los usuarios
-personalizar su flujo de trabajo
-                   
+            Añade JavaScript a tu producto para permitir a los usuarios personalizar su flujo de
+            trabajo
           </p>
         </div>
         <ImageInfo image={flex} />
@@ -30,9 +28,8 @@ personalizar su flujo de trabajo
           </h2>
           <SpinnerScale />
           <p className='font-inter text-white text-xl lg:w-[50vw] py-4 px-4 text-center'>
-          Escalar a través de muchos miles
-de usuarios sin problemas, con un
-arquitectura multiinquilino segura
+            Escalar a través de muchos miles de usuarios sin problemas, con un arquitectura
+            multiinquilino segura
           </p>
         </div>
       </article>
@@ -43,9 +40,7 @@ arquitectura multiinquilino segura
           </h2>
           <SpinnerSecure />
           <p className='font-inter text-white text-xl lg:w-[50vw] py-4 px-2 text-center'>
-          Permite multiinquilino
-cargas de trabajo con control total
-de recursos accedidos
+            Permite multiinquilino cargas de trabajo con control total de recursos accedidos
           </p>
         </div>
         <ImageInfo image={scale} />
