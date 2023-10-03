@@ -1,7 +1,9 @@
+import { Button } from '@labs-pkg/ui';
 import Header from './header';
 
 export default function HomePage() {
   return (
+    <>
     <div className='bg-[#050407]'>
       <Header />
       <div className='relative isolate px-6 pt-14 lg:px-8'>
@@ -29,11 +31,11 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <div
-          className='absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]'
-          aria-hidden='true'
-        ></div>
       </div>
     </div>
+    <Button className='text-white bg-purple-500 p-4' shadow>
+          lABS COMPONENTE
+    </Button>
+    </>
   );
 }
