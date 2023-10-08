@@ -16,7 +16,7 @@
   ],
   "author": "labs company",
   "packageManager": "pnpm@8.8.0",
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "@changesets/cli": "2.26.2",
