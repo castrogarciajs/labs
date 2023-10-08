@@ -1,10 +1,9 @@
 import { ButtonProps } from './interfaces/dev'
-import { STYLED_CSS } from './interfaces/const'
 
 export function Button({ children, shadow, rounded, ...atributtes }: ButtonProps): JSX.Element {
   const styled = {
-    boxShadow: shadow ? STYLED_CSS.shadow : 'none',
-    borderRadius: rounded ? '1rem' : 'none',
+    boxShadow: shadow ? "shadow" : "none",
+    borderRadius: rounded ? "rounded" : 'none',
   }
 
   return (
