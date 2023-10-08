@@ -13,7 +13,7 @@
     "build": "tsup components/index.tsx --format esm,cjs --dts --external react",
     "dev": "tsup components/index.tsx --format esm,cjs --watch --dts --external react",
     "format": "prettier . --cache --write",
-    "lint": "eslint . --ext tsx,js --cache --fix"
+    "lint": "eslint . --ext ts,tsx --cache --fix"
   },
   "devDependencies": {
     "@types/react": "18.2.23",
