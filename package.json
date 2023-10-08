@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "pnpm -r --filter=./packages/* dev",
     "build": "pnpm -r --filter=./packages/* build",
-    "lint": "pnpm -r lint",
+    "lint": "pnpm -r --filter=./packages/* lint",
     "format": "pnpm -r format",
     "public": "changeset version && changeset publish"
   },
@@ -17,13 +17,14 @@
   "author": "labs company",
   "packageManager": "pnpm@8.8.0",
   "license": "BSD-3-Clause",
-  "dependencies": {
-    "@changesets/cli": "2.26.2"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@changesets/cli": "2.26.2",
     "@labs-pkg/tsconfig": "workspace:*",
     "eslint": "8.50.0",
-    "prettier": "3.0.3"
+    "prettier": "3.0.3",
+    "@typescript-eslint/eslint-plugin": "6.0.0",
+    "@typescript-eslint/parser": "6.0.0"
   },
   "repository": {
     "type": "git",

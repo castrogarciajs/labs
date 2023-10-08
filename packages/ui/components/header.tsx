@@ -1,5 +1,5 @@
-import { HeaderProps } from './interfaces/dev';
+import { HeaderProps } from './interfaces/dev'
 
 export function Header({ children, ...atributtes }: HeaderProps) {
-  return <header {...atributtes}>{children}</header>;
+  return <header {...atributtes}>{children}</header>
 }
