@@ -4,14 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "turbo dev",
-    "build": "turbo build",
-    "clean": "turbo daemon clean",
-    "prepare": "husky install",
-    "lint": "turbo lint",
+    "dev": "pnpm -r --filter=./packages/* dev",
+    "build": "pnpm -r --filter=./packages/* build",
+    "lint": "pnpm -r lint",
     "format": "pnpm -r format",
-    "changeset:version": "changeset version",
-    "changeset:publish": "changeset publish"
+    "public": "changeset version && changeset publish"
   },
   "keywords": [
     "typescript",
@@ -26,9 +23,7 @@
   "devDependencies": {
     "@labs-pkg/tsconfig": "workspace:*",
     "eslint": "8.50.0",
-    "husky": "8.0.3",
-    "prettier": "3.0.3",
-    "turbo": "1.10.14"
+    "prettier": "3.0.3"
   },
   "repository": {
     "type": "git",
